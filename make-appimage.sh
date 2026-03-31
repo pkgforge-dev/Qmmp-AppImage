@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/256x256/apps/qmmp.png
 export DESKTOP=/usr/share/applications/qmmp.desktop
+export STARTUPWMCLASS=qmmp
 export DEPLOY_QT=1
 export DEPLOY_PIPEWIRE=1
 
