@@ -7,6 +7,8 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
+    libprojectm    \
+    libsidplayfp   \
     lxqt-qtplugin  \
     kvantum        \
     pipewire-audio \
