@@ -7,7 +7,6 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    libprojectm    \
     libsidplayfp   \
     lxqt-qtplugin  \
     kvantum        \
@@ -25,4 +24,3 @@ get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
 #make-aur-package qmmp-plugin-pack
 
 # If the application needs to be manually built that has to be done down here
-cp /usr/lib/libprojectM-4.so /usr/lib/libprojectM.so.3
