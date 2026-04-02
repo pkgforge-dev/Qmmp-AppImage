@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/256x256/apps/qmmp.png
 export DESKTOP=/usr/share/applications/qmmp.desktop
 export STARTUPWMCLASS=qmmp
 export DEPLOY_QT=1
+export QT_DIR=qt6
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
